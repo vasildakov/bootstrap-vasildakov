@@ -1,12 +1,60 @@
 
 
+$font-playfair-display: "Playfair Display", serif !important;
+$font-georgia: 'Georgia', serif !important;
+$font-noto-sans: "Noto Sans", serif !important;
 $headings-font-family: "Playfair Display";
 $headings-font-weight:700;
 
-$h1-font-size: 3rem;
+$h1-font-size: 2.5rem;
+$h2-font-size: 2rem;
+
+$line-height-base:            1.5;
+$line-height-sm:              1.25;
+$line-height-md:              1.75;
+$line-height-lg:              2;
+
+body {
+  //font-family: $font-noto-sans;
+
+}
+p {
+  font-family: $font-noto-sans;
+  color: #242424 !important;
+  font-size: 1.1rem;
+  font-weight:300;
+}
+
+.lh-md {
+  line-height: $line-height-md !important;
+}
 
 .fa-brands {
   font-size: 1.5rem;
+}
+
+.author {
+  font-weight: lighter !important;
+  color: #818181;
+}
+
+.navbar {
+  font-family: $font-playfair-display;
+  font-size: 1.2rem;
+
+  .navlink {
+    font-size: 1.2rem;
+    font-weight: 400;
+  }
+}
+
+.blockquote, .blockquote-footer {
+  font-size: 1.2rem !important;
+}
+.blockquote {
+  font-weight: 400;
+  font-style: italic;
+  color: #242424;
 }
 
 //@import "font-awesome/scss/_variables.scss";
@@ -14,6 +62,6 @@ $h1-font-size: 3rem;
 
 @import "bootstrap/scss/bootstrap";
 
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/brands.min.css");
 
