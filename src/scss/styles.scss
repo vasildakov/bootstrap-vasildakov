@@ -9,6 +9,8 @@ $headings-font-weight:700;
 $h1-font-size: 2.5rem;
 $h2-font-size: 2rem;
 
+$font-weight-bold: 900;
+
 $line-height-base:            1.5;
 $line-height-sm:              1.25;
 $line-height-md:              1.75;
@@ -45,6 +47,9 @@ p {
   .navlink {
     font-size: 1.2rem;
     font-weight: 400;
+  }
+  .active {
+    font-weight: 600 !important;
   }
 }
 
